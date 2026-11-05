@@ -1,0 +1,14 @@
+{
+  "short_name": "Haravan.com",
+  "name": "Haravan.com - Ecommerce Platform",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "com.haravan.seller"
+    }
+  ],
+  "start_url": "/admin",
+  "gcm_sender_id": "385614881537",
+  "display": "standalone"
+}

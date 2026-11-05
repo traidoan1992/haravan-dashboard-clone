@@ -1,0 +1,11 @@
+{
+  "name": "haravan-admin-static",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Bản clone HTML tĩnh của Haravan admin — không backend, không MongoDB",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  }
+}

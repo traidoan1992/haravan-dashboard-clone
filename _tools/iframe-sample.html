@@ -1,0 +1,234 @@
+<html lang="vi"><head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge; text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Haravan - Accounts</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link href="/lib/bootstrap@5.3.3/css/bootstrap.css?v=0Tv1es0KeOQQ8CeN_TXxE4tcarz5oxYvC1Ah5SvU7lo" rel="stylesheet">
+    <link href="/lib/bootstrap@5.3.3/css/bootstrap-icons.css?v=A5A1HFvh-qqxzE_D5wwRrPZdgiuuOurEd1AT-7aW6hU" rel="stylesheet">
+    
+    
+        <link href="/css/login.min.css?v=16NB7019DmcsnLjnnCBdNJMaNxSxPv1LuqTGCTvzlN8" rel="stylesheet">
+    
+    <link href="/lib/jquery/jquery.toast.min.css?v=FAVKvEdI2eIfKBdTCyC8XXg1V24AryzdasWouRPwRTE" rel="stylesheet">
+    <link href="/lib/cropper@1.6.2/cropper.css?v=I2efVSznNJn4F94itdzdnh5aHlDNnXfjS70xv2WoUYY" rel="stylesheet">
+
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-TGLDWKP"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-NF7SPWCZ" id="gtm-tag"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      (function (w, d, s, l) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = "true";
+        j.src = "https://www.googletagmanager.com/gtm.js?id=GTM-NF7SPWCZ" + dl;
+        j.id = "gtm-tag";
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer");
+    </script>
+
+    
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-TGLDWKP');
+        </script>
+        <!-- End Google Tag Manager -->
+    
+</head>
+<body cz-shortcut-listen="true">
+
+
+<div class="login-wrapper turnstile-layout">
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8K_8uYNnHStBj2MkdWP8mVQbuWWWcyEyU_q_VG1EX9DpzE7ZCxI4RS0bT01NGmSYbIyIjoYhBjS5tuUUBPVfG3hqxbpNBYITvcarCOmoFQMJSXMAK1tYxHqLi3NrB6i7nPhvcmNalbLrcSnmwN2YsAA">
+<div id="hrv-form-login" class="login-card login" data-v-app=""><div class="login-logo mb-4"><img src="/img/icon-haravan.svg?v=wdxdTqrqUZzQgeDYjtiJ5cdlrG40ci-3HgXBnqttApk" alt="Haravan"></div><h5 class="mb-2 text-truncate" title="Noritake Vietnam">Noritake Vietnam</h5><p class="text-muted mb-3">Log in to access your store</p><!----><form novalidate=""><div class="form-floating mb-3"><input type="email" id="email-input" class="form-control form-control-lg h-48px" placeholder=" "><label for="email-input">Email</label><!----></div><button type="submit" class="btn btn-primary w-100 py-2 fs-6 d-flex justify-content-center align-items-center h-48px"><!----><span>Continue</span></button></form><div class="text-center mt-3"><a class="text-primary text-decoration-none link-hover cursor-pointer">Sign in with password</a></div><div class="divider"><span>or</span></div><div class="d-grid gap-2"><a class="btn btn-social h-48px mb-2"><img src="/img/icon-passkey.svg" alt="Passkey"><span class="fw-bold pt-1">Sign in with Passkey</span></a><a class="btn btn-social h-48px mb-2"><img src="/img/icon-google.svg" alt="Google"><span class="fw-bold pt-1">Sign in with Google</span></a><a class="btn btn-social h-48px"><img src="/img/icon-apple.svg" alt="Apple"><span class="fw-bold pt-1">Sign in with Apple</span></a></div><footer><div class="d-flex justify-content-between mt-3"><div class="mt-2"><a href="//haravan.com/pages/quy-dinh" target="_blank">Privacy</a>&nbsp; <a href="//haravan.com/pages/policy" target="_blank">Terms</a></div><div class="dropdown lang-dropdown"><button class="btn lang-toggle dropdown-toggle d-flex align-items-center" type="button" data-bs-toggle="dropdown"><img src="/img/icon-flag-en.svg" class="flag"><span>English</span></button><ul class="dropdown-menu lang-menu"><li><button class="lang-item d-flex align-items-center"><img src="/img/icon-flag-vn.svg" class="flag"><span>Vietnamese</span><!----></button></li><li><button class="lang-item d-flex align-items-center active"><img src="/img/icon-flag-en.svg" class="flag"><span>English</span><i class="bi bi-check-lg check-icon"></i></button></li></ul></div></div></footer></div>
+
+
+<div id="turnstile-container"><div><div></div></div></div>
+<input id="cf-turnstile-response" name="cf-turnstile-response" type="hidden">
+
+<style>
+    .login-wrapper.turnstile-layout {
+        flex-direction: column;
+    }
+
+    #turnstile-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;
+    }
+</style>
+
+
+<script>
+    window.onTurnstileLoaded = function () {
+        const executionTimeout = 60000; //60s
+        let pendingExecution = null;
+        let resolveExecution = null;
+        let executionTimer = null;
+
+        const responseField = document.getElementById(
+            'cf-turnstile-response'
+        );
+
+        function finishExecution(success) {
+            if (!success)
+                responseField.value = '';
+
+            if (executionTimer) {
+                clearTimeout(executionTimer);
+                executionTimer = null;
+            }
+
+            if (resolveExecution) {
+                const resolve = resolveExecution;
+                resolveExecution = null;
+                pendingExecution = null;
+                resolve(success);
+            }
+        }
+
+        const widgetId = turnstile.render(
+            '#turnstile-container',
+            {
+                sitekey: '0x4AAAAAAEF82yDJfVjf8h5U',
+                theme: 'light',
+                execution: 'execute',
+                appearance: 'interaction-only',
+                action: 'login',
+                'response-field': false,
+
+                callback: function (token) {
+                    responseField.value = token;
+                    finishExecution(true);
+                },
+
+                'error-callback': function (errorCode) {
+                    console.warn('Turnstile error:', errorCode);
+                    finishExecution(false);
+                },
+
+                'expired-callback': function () {
+                    finishExecution(false);
+                },
+
+                'timeout-callback': function () {
+                    finishExecution(false);
+                },
+
+                'unsupported-callback': function () {
+                    console.warn('Turnstile does not support this browser.');
+                    finishExecution(false);
+                }
+            }
+        );
+
+        window.executeTurnstile = function () {
+            if (pendingExecution)
+                return Promise.resolve(false);
+
+            const execution = new Promise(function (resolve) {
+                resolveExecution = resolve;
+            });
+            pendingExecution = execution;
+
+            responseField.value = '';
+            executionTimer = setTimeout(function () {
+                console.warn('Turnstile execution timed out.');
+                turnstile.reset(widgetId);
+                finishExecution(false);
+            }, executionTimeout);
+
+            try {
+                turnstile.reset(widgetId);
+                turnstile.execute(widgetId);
+            } catch (error) {
+                console.warn('Unable to execute Turnstile:', error);
+                finishExecution(false);
+            }
+
+            return execution;
+        };
+    };
+
+    window.beforeSubmitWithTurnstile = async function (event) {
+        event.preventDefault();
+
+        const button = event.currentTarget;
+        const form = button.closest('form');
+
+        if (!form)
+            return false;
+
+        if (button.dataset.submitting === 'true')
+            return false;
+
+        button.dataset.submitting = 'true';
+
+        const loading = button.querySelector('.loading-main');
+        loading?.classList.remove('hidden');
+
+        if (typeof window.executeTurnstile !== 'function') {
+            button.dataset.submitting = 'false';
+            loading?.classList.add('hidden');
+            return false;
+        }
+
+        const valid = await window.executeTurnstile();
+
+        if (!valid) {
+            button.dataset.submitting = 'false';
+            loading?.classList.add('hidden');
+            return false;
+        }
+
+        if (typeof form.requestSubmit === 'function') {
+            form.requestSubmit(button);
+        } else {
+            // iOS Safari < 16 (e.g. iOS 15) does not support requestSubmit().
+            const btnName = button.getAttribute('name');
+            if (btnName) {
+                let hidden = form.querySelector('input[type="hidden"][name="' + btnName + '"]');
+                if (!hidden) {
+                    hidden = document.createElement('input');
+                    hidden.type = 'hidden';
+                    hidden.name = btnName;
+                    form.appendChild(hidden);
+                }
+                hidden.value = button.value;
+            }
+            form.submit();
+        }
+        return false;
+    };
+
+</script>
+
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&amp;onload=onTurnstileLoaded" defer="">
+</script>
+
+</div>
+
+<script src="/lib/jquery/jquery.js"></script>
+<script src="/lib/jquery/jquery.toast.min.js"></script>
+<script src="/lib/vue/vue.global.prod.js?v=2unBeOhuCSQOWHIc20aoGslq4dxqhw0bG7n_ruPG0_4"></script>
+<script src="/lib/bootstrap@5.3.3/js/bootstrap.bundle.js"></script>
+<script src="/lib/cropper@1.6.2/cropper.js"></script>
+<script src="/lib/phonenumber/libphonenumber.js?v=3SxPPqxGZTFWL_calU18LhWlgT137zj5O6SrPT2KOEg"></script>
+<script src="/js/utils.js?v=lz5Fj2pbxCM2YqPMLT9upzwvlyr7PuoWJhFUTNpQNVQ"></script>
+
+    <script type="module" src="/js/login/main.js?v=jIz-MXBaLaG-h4_0RBcIGUEa9xMR5JfRDojub8WhfAY"></script>
+    <script>
+        window.__LOGIN_MODEL__ = {"account":null,"returnUrl":"/connect/authorize/callback?client_id=omnipower.client\u0026redirect_uri=https%3A%2F%2Fmyharavan.com%2Fadmin%2Fsignin-oidc\u0026response_type=code%20id_token\u0026scope=openid%20profile%20org%20userinfo%20email%20web_api%20com_api%20hac_api%20lzd_api%20tiki_api%20adr_api%20shopee_api%20loy_api%20zalo_api%20billing_api%20sendo_api%20wh_api%20partner_api%20social_api%20file_api%20report_api\u0026response_mode=form_post\u0026nonce=639294674800575283.YTFiZWM1NTItZjBiMC00ZTY1LWFkYmMtY2RhNzlmZjg0OGM2MmViNzc4OWEtOTEyNi00MDhhLWI4ZWEtMmVhNWQyNTlhOTRh\u0026orgid=200000296482\u0026state=CfDJ8OhB9w14UplFo0ysyCS0-PILFiqRr9DhTcTK_V4e5JzjNErVLcRq5fN51ymSd1-ntNohBqGs7wJB1xLImL4BK70k6TOY4QJCTzsna0sYh3IwFtFgqiaZPJCeEmbGljDDrBIcdbPfFqNv6cScgEwlLkLzglbMZQ2dME6Ni6R4WLnSivRyiHAQfarm39fC87wWpHlve246zWz7gzyImXcy71q-_oUaLl1dKyCelvwznQSCdxKwkOh35R40KRG7mNSIkTH279DM-RsBkEea7O3knPpiPp4UQOkR3m-BIVU8hNHzcADSXJx2nPJNvxQSEL1WrJCcqSRauJ76Vfyb4Ix9bakbVZpTTlSKa1hB9R_svVy3G2UKJ48YVLQHE7ZK5ERmNNWE-gLzKwP_EZY7-eXh6evBbh5L5D6fNgSdOGbY34aExfFqBCJuau6EJdbLEm8IxQ\u0026x-client-SKU=ID_NET8_0\u0026x-client-ver=7.0.3.0","orgId":200000296482,"orgName":"Noritake Vietnam","flow":null,"locale":"en","otp":null,"expireAt":"0001-01-01T00:00:00","reSendAt":"0001-01-01T00:00:00","canRecoveryEmail":false,"message":null,"hiddenRegister":true,"hiddenExternalGoogle":false};
+    </script>
+
+
+
+</body></html>

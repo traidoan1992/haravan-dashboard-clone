@@ -1,0 +1,21 @@
+# ── Bí mật: KHÔNG BAO GIỜ commit ──
+_mirror/cookie.txt
+_mirror/cookies.txt
+_mirror/blocked.log
+_mirror/net-*.log
+.env
+.env.*
+
+# ── Rác của công cụ crawl/audit ──
+_tools/_backup/
+_tools/logs/
+_tools/crawl-report.json
+
+# ── Khác ──
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# ── Dự án tách riêng (bỏ dòng này nếu muốn gộp vào repo) ──
+ecommerce-main/
